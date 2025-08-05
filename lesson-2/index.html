@@ -2,197 +2,167 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <style>
-        table,
-        table*{
-            border: 1px solid #000;
-        }
+    <style> 
+     table, th, td {
+      border: 1px solid black;
+    }
     </style>
 </head>
 <body>
-   <selective>
-    <h1><strong>ОСНОВНЫЕ ТЕГИ HTML</strong></h1>
-   </selective>
-    <table>
-       <thead>
+  <h1 align="center"><strong>ОСНОВНЫЕ ТЕГИ HTML</strong></h1>
+  <center>
+   <table>
+      <thead>
         <tr>
-          <td>
-          <ol>  
-            <li><em>СТРУКТУРА Web-страницы</em></li>
-          </ol>
-          </td>
+          <th colspan="3">
+           <em>1.СТРУКТУРА Web-страницы</em>
+          </th>
         </tr>
        </thead>
        
        <tbody>
         <tr>
-            <td><strong>htmk/htmk</strong></td>
-            <td><p>Начало и конец страницы</p></td>
+            <td><strong>&lthtml&gt&lt/html&gt</strong></td>
+            <td>Начало и конец страницы</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong>head/head</strong></td>
-            <td><p>Описание страницы</p></td>
+            <td><strong>&lthead&gt&lt/head&gt</strong></td>
+            <td>Описание страницы</td>
             <td> </td> 
         </tr>
         <tr>
-            <td><strong>tittle/tittle</strong></td>
-            <td><p>Имя страницы</p></td>
+            <td><strong>&lttitle&gt&lt/title&gt</strong></td>
+            <td>Имя страницы</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong><p><body></body></p></strong></td>
-            <td><p>Определяет видимую часть страницы</p></td>
-            <td> </td>
-        </tr>
-        <tr>
-           <td colspan="2"> </td>
-           <td> </td> 
-        </tr>
-        </tbody>
-       
-        <thead>
-         <tr>
-          <th>
-            <ol start="2">  
-             <li><em>АТРИБУТЫ ДОКУМЕНТА</em></li>
-            </ol>
-          </th>
-          <th><em>Значение атрибутов</em></th>
-         </tr>
-        </thead>
-       
-       <tbody>
-        <tr>
-            <td><strong><p>body background="URL"</p></strong></td>
-            <td><p>Фоновое изображение</p></td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td><strong><p>body bgcolor="#RRGGBB"</p></strong></td>
-            <td><p>Цвет фона документа</p></td>
-            <td> </td> 
-        </tr>
-        <tr>
-            <td><strong><p>body text="#RRGGBB"</p></strong></td>
-            <td><p>Цвет текста документа</p></td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td><strong><p>body link="#RRGGBB"</p></strong></td>
-            <td><p>Устанавливает цвет гиперссылок</p></td>
-            <td> </td>
-        </tr>
-               <tr>
-            <td><strong><p>body vlink="#RRGGBB"</p></strong></td>
-            <td><p>Устанавливает цвет гиперссылок</p></td>
-            <td> </td>
-        </tr>
-               <tr>
-            <td><strong><p>body alink="#RRGGBB"</p></strong></td>
-            <td><p>Устанавливает цвет гиперссылок</p></td>
+            <td><strong>&ltbody&gt&lt/body&gt</strong></td>
+            <td>Определяет видимую часть страницы</td>
             <td> </td>
         </tr>
         <tr>
            <td colspan="2"> </td>
            <td> </td> 
         </tr>
-        </tbody>
-
-        <thead>
          <tr>
-          <th>
-            <ol start="3">  
-             <li><em>ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА</em></li>
-            </ol>
+          <th colspan="2"> 
+            <em>2.АТРИБУТЫ ТЕЛА ДОКУМЕНТА</em>
           </th>
           <th><em>Значение атрибутов</em></th>
          </tr>
-        </thead>
-       
-       <tbody>
         <tr>
-            <td><strong><p>h?</p></strong></td>
-            <td><p>Создает заголовок</p></td>
+            <td>&ltbody background="URL"&gt</td>
+            <td>Фоновое изображение</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong><p>h? align</p></strong></td>
-            <td><p>Заголовок с выравниванием</p></td>
-            <td><p>left, right, center</p></td> 
+            <td>&ltbody bgcolor="#RRGGBB"&gt</td>
+            <td>Цвет фона документа</td>
+            <td rowspan="5">red, blue, #FF0000 и др. </td> 
         </tr>
         <tr>
-            <td><strong><p>p/p</p></strong></td>
-            <td><p>Создает новый параграф</p></td>
+            <td>&ltbody text="#RRGGBB"&gt</td>
+            <td>Цвет текста документа</td>
+        </tr>
+        <tr>
+            <td>&ltbody link="#RRGGBB"&gt</td>
+            <td>Устанавливает цвет гиперссылок</td>
+        </tr>
+        <tr>
+            <td>&ltbody vlink="#RRGGBB"&gt</td>
+            <td>Устанавливает цвет гиперссылок</td>
+        </tr>
+        <tr>
+            <td>&ltbody alink="#RRGGBB"&gt</td>
+            <td>Устанавливает цвет гиперссылок</td>
+        </tr>
+        <tr>
+           <td colspan="2"> </td>
+           <td> </td>
+        </tr>
+         <tr>
+          <th colspan="2"> 
+            <em>3.ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА</em>
+          </th>
+          <th><em>Значение атрибутов</em></th>
+         </tr>
+        <tr>
+            <td>&lth?&gt&lt/h?&gt</td>
+            <td>Создает заголовок</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong><pre>p align></pre></strong></td>
-            <td><p>Выравнивает параграф</p></td>
-            <td><p>left, right, center, justify</p></td>
+            <td>&lth? align="*"&gt&lt/h?&gt</td>
+            <td>Заголовок с выравниванием</td>
+            <td>left, right, center</td> 
         </tr>
         <tr>
-            <td><strong><p>br</p></strong></td>
-            <td><p>Вставляет перевод строки</p></td>
+            <td>&ltp&gt&lt/p&gt</td>
+            <td>Создает новый параграф</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong><p>center</p></strong></td>
-            <td><p>Выравнивание по центру</p></td>
+            <td>&ltp align="*"&gt&lt/p&gt</td>
+            <td>Выравнивает параграф</td>
+            <td>left, right, center, justify</td>
+        </tr>
+        <tr>
+            <td>&ltbr&gt</td>
+            <td>Вставляет перевод строки</td>
             <td> </td>
         </tr>
         <tr>
-            <td><strong><p>div align</p></strong></td>
-            <td><p>Форматирование больших блоков текста</p></td>
-            <td><p>left, right, center, justify</p></td>
+            <td>&ltcenter&gt&lt/center&gt</td>
+            <td>Выравнивание по центру</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>&ltdiv align="*"&gt</td>
+            <td>Форматирование больших блоков текста</td>
+            <td>left, right, center, justify</td>
         </tr>
         <tr>
            <td colspan="2"> </td>
            <td> </td> 
         </tr>
-        </tbody>
-        
-        <thead>
          <tr>
-          <th>
-            <ol start="4">  
-             <li><em>ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ШРИФТА</em></li>
-            </ol>
+          <th colspan="2">
+            <em>4.ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ШРИФТА</em>
           </th>
           <th><em>Значение атрибутов</em></th>
          </tr>
-        </thead>
-        <tbody>
         <tr>
-            <td>b</td>
+            <td>&ltb&gt&lt/b&gt</td>
             <td><strong>Жирный</strong></td>
             <td> </td>
         </tr>
         <tr>
-            <td>i</td>
+            <td>&lti&gt&lt/i&gt</td>
             <td><em>Курсив</em></td>
             <td> </td> 
         </tr>
         <tr>
-            <td>u</td>
+            <td>&ltu&gt&lt/u&gt</td>
             <td><u>Подчёркнутый</u></td>
             <td> </td>
         </tr>
-               <tr>
-            <td>sup</td>
-            <td>Верхний индекс - пример:</td>
-            <td> </td>
-        </tr>
-            <tr>
-            <td>sub</td>
-            <td><p>Нижний индекс - пример:</p></td>
+        <tr>
+            <td>&ltsup&gt&lt/sup&gt</td>
+            <td>Верхний индекс - пример:a<sup>2</sup></td>
             <td> </td>
         </tr>
         <tr>
-            <td>font size</td>
+            <td>&ltsub&gt&lt/sub&gt</td>
+            <td>Нижний индекс - пример:a<sub>2</sub></td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>&ltfont size&gt&lt/font&gt</td>
             <td>Размер шрифта в пределах от 1 до 7</td>
             <td> </td>
         </tr>
     </table>
+    </center>
 </body>
 </html>
