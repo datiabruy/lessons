@@ -56,6 +56,7 @@ input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
     height: 30px;
+    box-sizing: border-box;
 }
 
 select {
@@ -84,9 +85,14 @@ input .radio {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-input .submit {
-    background-color: rgb(253, 15, 71);
+.sub_form input[type="submit"] {
+    background-color: rgb(238, 1, 88);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.sub_form input[type="submit"]:hover {
+    background-color: rgb(238, 1, 88);
 }
