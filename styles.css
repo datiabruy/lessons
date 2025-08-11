@@ -68,16 +68,21 @@ select {
     font-size: 15px;   
 }
 
-input .radio {
+.radio-group {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    position: relative;
+    gap: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: row;
+    color: white;
+    flex-direction: column;
+    appearance: left;
 }
 
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;                                                                                            
+}
 .form textarea {
     width: 100%;
     padding: 10px;

@@ -16,7 +16,8 @@
             <label for="name"> Your name</label> 
             <input type="text" id="name" name="name" required/>
             <label for="phone"> Phone number</label> 
-            <input type="tel" id="phone" name="phone" required/>
+            <input type="tel" id="phone" name="phone" max="10" required/>
+            <hr>
             <label for="email"> Email</label> 
             <input type="email" id="phone" name="email" required/>
         </fieldset>
@@ -34,11 +35,15 @@
             <legend>Preferences</legend><br>
             <label for="date"> Select a date</label> 
             <input type="date" id="date" name="date"required>
-            <label for="radio">Tour type</label>
-            <input type="radio" name="tour-type" value="individual">
-             Individual
-            <input type="radio" name="tour-type" value="group">
-            Group
+            <label for="tour-type">Tour type</label>
+            <div class="radio-group">
+              <label class="radio-option">Individual
+              <input type="radio" name="tour-type" value="individual">
+              </label>
+              <label class="radio-option">Group
+              <input type="radio" name="tour-type" value="group">
+              </label>
+            </div>
             <br>
             <label for="text">Additional comments</label>
             <textarea id="text" rows="3" cols="20"></textarea><br>
