@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.content {
+  background-color: #D9D9D9;
+  height: 592px;
+  text-align: center;
+  padding-top: 94px;
+}
+
+.content h2 {
+  font: 700 70px/1 Gotham Pro, sans-serif;
+}
+
+.title {
+  font: 400 22px/1.2 Gotham Pro, sans-serif; 
+  display: block; 
+  padding: 0 37px;
+  margin-top: 20px;
+}
+
+.description p {
+  font: 400 16px/1.4 Gotham Pro, sans-serif; 
+  display: block; 
+  margin-top: 20px;   
+}
+
+.rockit_btn {
+  position: relative;
+  display: block;
+  font: 700 18px/1 Gotham Pro, sans-serif;
+  width: 218px;
+  background-color: #1F1F1F;
+  border-radius: 6px;
+  color: #FFF;
+  padding: 18px 35px 18px 57px;
+  margin: 20px auto 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.17);
+}
+
+.rockit_btn::before {
+  content: '';
+  background: url(../img/rockit_img.png) no-repeat center/cover;
+  position: absolute;
+  left: 28px;
+  top: 18px;
+  width: 14px;
+  height: 18px;
+}
+
+.rockit_btn_text {
+  color: #FED402;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  width: 600px;
+  border-radius: 20px;
+  background-color: #fff;
+  font: 400 14px/1.4 Gotham Pro, sans-serif;
+  position: relative;
+  margin: -64px auto 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.09);
+}
+
+.cards::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #EEE;
+}
+
+.cards a {
+  color: #1F1F1F;
+  text-decoration: none;
+}
+
+.card_left {
+  padding: 30px 40px 30px 60px;
+  position: relative;
+  display: flex;
+}
+
+.card_left::before {
+  content: '';
+  background: url(../img/card_left_img.png) no-repeat center/cover;
+  position: absolute;
+  left: 30px;
+  width: 12px;
+  height: 22px;
+}
+
+.card_right {
+  padding: 30px 30px 30px 50px;
+  position: relative;
+  display: flex;
+}
+
+.card_right::before {
+  content: '';
+  background: url(../img/card_right_img.png) no-repeat center/contain;
+  position: absolute;
+  left: 10px;
+  width: 14px;
+  height: 25px;
+}
+
+.card_left strong, .card_right strong {
+  border-bottom: 2px solid #FED402;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url(fonts/GothamPro-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url(fonts/GothamPro-Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
